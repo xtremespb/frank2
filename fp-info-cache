@@ -1,4 +1,4 @@
-23841996250175264
+23850675992950837
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64701,6 +64701,13 @@ mini din 6pin connector socket
 9
 6
 LIBS
+DB9
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+LIBS
 DSUB-9
 9-pin D-Sub connector, solder-cups edge-mounted, male, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
 9-pin D-Sub connector edge mount solder cup male x-pin-pitch 2.77mm mounting holes distance 25mm
@@ -64722,6 +64729,13 @@ DSUB-9_Male_EdgeMount_P2.77mm
 9
 9
 LIBS
+DSUB-9_Male_Horizontal
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+LIBS
 GCT-MEM2055-00-190-01-A
 http://www.farnell.com/datasheets/1917242.pdf
 MicroSD card socket
@@ -64736,6 +64750,13 @@ HDMI
 23
 23
 LIBS
+Medved_2x02
+Through hole straight pin header, 2x02, 2.54mm pitch, double rows
+Through hole pin header THT 2x02 2.54mm double row
+0
+4
+4
+LIBS
 Medved_CP_Radial_D5.0mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
@@ -64749,6 +64770,13 @@ Medved_DSUB-15-HD_Female_Horizontal
 0
 17
 16
+LIBS
+Medved_JMP_2x03
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
 LIBS
 Medved_Jack_3.5mm_CUI_SJ1-3535NG_Horizontal
 TRS 3.5mm, horizontal, through-hole, with switch, https://www.cui.com/product/resource/sj1-353xng.pdf
@@ -64777,6 +64805,13 @@ mounting hole 2.2mm no annular m2 din965
 0
 0
 0
+LIBS
+Medved_PinHeader_1x02
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
 LIBS
 Medved_PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row

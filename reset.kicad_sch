@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8391c966-08b7-49e8-8033-b2f36d1f6bb0")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "FRANK2")
 		(date "2024-11-21")
@@ -396,20 +396,20 @@
 		)
 	)
 	(junction
-		(at 33.02 36.83)
+		(at 48.26 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35033070-ef3d-4d8e-9e3f-2a9f45dd13be")
 	)
 	(junction
-		(at 33.02 53.34)
+		(at 48.26 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f41a6c8-112b-4fd7-a37b-2f8215b4e745")
 	)
 	(wire
 		(pts
-			(xy 26.67 48.26) (xy 27.94 48.26)
+			(xy 41.91 62.23) (xy 43.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 33.02 36.83)
+			(xy 41.91 50.8) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 26.67 43.18)
+			(xy 41.91 50.8) (xy 41.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 39.37 53.34)
+			(xy 48.26 67.31) (xy 54.61 67.31)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 53.34) (xy 33.02 53.34)
+			(xy 41.91 67.31) (xy 48.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 39.37 48.26)
+			(xy 54.61 67.31) (xy 54.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 34.29) (xy 33.02 36.83)
+			(xy 48.26 48.26) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +479,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 39.37 43.18)
+			(xy 53.34 57.15) (xy 54.61 57.15)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 39.37 43.18)
+			(xy 54.61 50.8) (xy 54.61 57.15)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 33.02 57.15)
+			(xy 48.26 67.31) (xy 48.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 53.34) (xy 26.67 48.26)
+			(xy 41.91 67.31) (xy 41.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 43.18) (xy 27.94 43.18)
+			(xy 41.91 57.15) (xy 43.18 57.15)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 36.83) (xy 39.37 36.83)
+			(xy 48.26 50.8) (xy 54.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 39.37 48.26)
+			(xy 53.34 62.23) (xy 54.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -547,9 +547,20 @@
 		)
 		(uuid "ed8ebf26-4454-4ab9-aced-2ba02cc2e344")
 	)
+	(text "Reset Button"
+		(exclude_from_sim no)
+		(at 81.28 40.132 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f0a62c7-c8f1-4a48-8998-198c477271d3")
+	)
 	(hierarchical_label "RUN"
 		(shape input)
-		(at 33.02 57.15 270)
+		(at 48.26 71.12 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -561,7 +572,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual")
-		(at 33.02 45.72 0)
+		(at 48.26 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -569,7 +580,7 @@
 		(dnp no)
 		(uuid "6b5ca8be-bb91-4e94-acd1-630e3c529c4c")
 		(property "Reference" "SW2"
-			(at 47.244 35.052 0)
+			(at 62.484 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +588,7 @@
 			)
 		)
 		(property "Value" "Reset Button"
-			(at 47.244 37.592 0)
+			(at 62.484 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,7 +596,7 @@
 			)
 		)
 		(property "Footprint" "LIBS:Button_SMD_3x3x2"
-			(at 33.02 38.1 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 45.72 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +614,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 33.02 45.72 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +646,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 33.02 34.29 180)
+		(at 48.26 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -643,8 +654,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1a81c5-eb22-45a1-bee9-e10a21274cae")
-		(property "Reference" "#PWR051"
-			(at 33.02 27.94 0)
+		(property "Reference" "#PWR050"
+			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.0201 30.48 90)
+			(at 48.2601 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 34.29 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 34.29 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 34.29 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +705,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a9828ed1-b2ee-489b-a4b3-6e3f2f279836"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
