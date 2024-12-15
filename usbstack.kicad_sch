@@ -3,12 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "c326cd3a-5e0e-4f9d-aedd-01b162fbbdf0")
-	(paper "A3")
+	(paper "A4")
 	(title_block
-		(title "USB to PS/2 Adapter")
-		(date "2024-12-07")
-		(rev "1.2")
+		(title "FRANK")
+		(date "2024-12-15")
+		(rev "2.0")
 		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/xtremespb/frank2")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
