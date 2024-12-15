@@ -1396,7 +1396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ea342ba-3872-4d67-bd5a-9ae95625a278")
-		(property "Reference" "R36"
+		(property "Reference" "R26"
 			(at 52.07 41.91 90)
 			(effects
 				(font
@@ -1412,7 +1412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 55.88 44.958 90)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R36")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1463,7 +1463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bdbad11-8cd3-4225-a479-6845f9164f15")
-		(property "Reference" "R40"
+		(property "Reference" "R30"
 			(at 71.12 63.5 90)
 			(effects
 				(font
@@ -1479,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 74.93 66.548 90)
 			(effects
 				(font
@@ -1515,7 +1515,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R40")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482fb5b6-ed80-4592-a0fa-8e2be81a63cd")
-		(property "Reference" "R35"
+		(property "Reference" "R25"
 			(at 52.07 36.83 90)
 			(effects
 				(font
@@ -1546,7 +1546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 55.88 39.878 90)
 			(effects
 				(font
@@ -1582,7 +1582,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R35")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1597,7 +1597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "584fa393-efe9-4d55-b6d6-a3b15941d214")
-		(property "Reference" "R37"
+		(property "Reference" "R27"
 			(at 52.07 46.99 90)
 			(effects
 				(font
@@ -1613,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 55.88 50.038 90)
 			(effects
 				(font
@@ -1649,7 +1649,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R37")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69eb3dd5-8e18-4ced-9b08-9096a54144bd")
-		(property "Reference" "R39"
+		(property "Reference" "R29"
 			(at 71.12 58.42 90)
 			(effects
 				(font
@@ -1680,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 74.93 61.468 90)
 			(effects
 				(font
@@ -1716,7 +1716,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R39")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1732,7 +1732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e2ae5f3-fa55-41e5-b798-d57ddbe73274")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR030"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "#PWR051")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba460009-9003-4057-9e1e-3039e7d9da44")
-		(property "Reference" "R41"
+		(property "Reference" "R31"
 			(at 134.62 63.5 90)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 138.43 66.548 90)
 			(effects
 				(font
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R41")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1974,7 +1974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf1be61a-c6bb-4427-9b3f-5ded212224f0")
-		(property "Reference" "R42"
+		(property "Reference" "R32"
 			(at 134.62 68.58 90)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 138.43 71.628 90)
 			(effects
 				(font
@@ -2026,7 +2026,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R42")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2041,7 +2041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ade8b0-e96c-4332-adcd-62fd650ba98e")
-		(property "Reference" "R38"
+		(property "Reference" "R28"
 			(at 71.12 53.34 90)
 			(effects
 				(font
@@ -2057,7 +2057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LIBS:Medved_R_0805"
 			(at 74.93 56.388 90)
 			(effects
 				(font
@@ -2093,7 +2093,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/988a4a41-61b5-4b3b-8122-c902c7e669c8"
-					(reference "R38")
+					(reference "R28")
 					(unit 1)
 				)
 			)

@@ -237,9 +237,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|711200|685800|9a42a44f-1c6d-44ed-aac4-8ea26b10baca|9a42a44f-1c6d-44ed-aac4-8ea26b10baca|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5c8a1b8-2191-4aca-ae11-3e6c3949952c|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5c8a1b8-2191-4aca-ae11-3e6c3949952c|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e329bcc6-56e1-462e-b46e-8e80e079f60f/d097d030-c83c-4d01-85d9-7a9e624da841"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -830,10 +828,6 @@
       "Root"
     ],
     [
-      "e5c8a1b8-2191-4aca-ae11-3e6c3949952c",
-      "RP2040"
-    ],
-    [
       "48d67e7d-16ec-4bee-8dad-45e13f9405cf",
       "Gamepad 1"
     ],
@@ -858,10 +852,6 @@
       "Gamepad 2"
     ],
     [
-      "a9828ed1-b2ee-489b-a4b3-6e3f2f279836",
-      "Reset"
-    ],
-    [
       "988a4a41-61b5-4b3b-8122-c902c7e669c8",
       "VGA"
     ],
@@ -870,16 +860,28 @@
       "RS232"
     ],
     [
+      "9001d614-2595-45ef-bb52-146754ed0d0b",
+      "PS2"
+    ],
+    [
+      "b290928d-364f-4752-b22a-0ddbe43ed0d7",
+      "Composite Video"
+    ],
+    [
       "cfde7a60-7ac3-405d-8b86-f95521b6825b",
       "PSRAM"
     ],
     [
-      "e329bcc6-56e1-462e-b46e-8e80e079f60f",
-      "Keyboard"
+      "2ec26790-4ab8-4fff-835c-2979a5db3920",
+      "Pico"
     ],
     [
-      "d097d030-c83c-4d01-85d9-7a9e624da841",
-      "RP2040"
+      "12e4da33-5e75-4b8a-a648-4a1c67edb16a",
+      "USB Stacked"
+    ],
+    [
+      "47c72a8b-0716-4be2-acf8-2ce152afbc9f",
+      "Zero"
     ]
   ],
   "text_variables": {}
